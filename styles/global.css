@@ -11,7 +11,7 @@
 
 :root {
     --text: #edf1f7;
-    --blue: #1F3BF1;
+    --blue: rgb(16, 28, 102);
     --yellow: #FFEE51;
 }
 
