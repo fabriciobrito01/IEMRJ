@@ -1,83 +1,83 @@
 main {
-    flex: 1;
-    justify-content: space-between;
+  flex: 1;
+  justify-content: space-between;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    width: 100%;
-    max-width: 1440px;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .conteudo {
-    width: 100%;
-    max-width: 570px;
+  width: 100%;
+  max-width: 570px;
 }
 
 .evento {
-    font-size: 100px;
-    font-weight: bolder;
+  font-size: 100px;
+  font-weight: bolder;
 }
 
 .evento span {
-    font-size: 50px;
-    font-style: italic;
-    color: var(--yellow);
+  font-size: 50px;
+  font-style: italic;
+  color: var(--yellow);
 }
 
 .sobre {
-    font-size: 20px;
-    margin: 20px 0px 28px;
+  font-size: 20px;
+  margin: 20px 0px 28px;
 
 }
 
 main img {
-    margin-top: 100px;
-    border-radius: 10px;
+  margin-top: 100px;
+  border-radius: 10px;
 }
 
 .botao {
-    background-color: rgba(31, 59, 241, 0.3);
-    position: absolute;
-    padding: 8px;
-    border-radius: 5px;
-    
-    font-weight: 700;
+  background-color: rgba(31, 59, 241, 0.3);
+  position: absolute;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .botao a {
-    font-weight: 700;
+  font-weight: 500;
+  font-size: 13px;
 }
 
 .container {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .image-container {
-    position: relative;
-    display: block;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-    height: 83.7%;
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    color: #fff;
-    border-radius: 8.33px;
-  }
-  
-  .image-container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .overlay p {
-    padding: 10px;
-    font-size: 16px;
-    font-weight: 700;
-  }
+  display: flex;
+  gap: 20px;
+}
+
+.image-container {
+  position: relative;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 83.7%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  color: #fff;
+  border-radius: 8.33px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
