@@ -2,14 +2,65 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 .map {
-    position: relative;
+    position: fixed;
 }
 
 .map iframe {
     align-items: center;
 
+}
+
+#content {}
+
+.txt-logo{
+    font-size: 35px;
+    color: var(--yellow);
+    font-style: italic;
+}
+
+.txt {
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.corner-logo {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.title {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+.adress{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    padding-top: 20px;
+    font-size: 18px;
+    
+}
+
+.top {
+    background-color: var(--yellow);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
