@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -6,17 +12,20 @@ section {
 }
 
 .map {
-    position: fixed;
+    position: relative;
+    width: 900px;
+    height: 500px;
+    background: white;
 }
 
-.map iframe {
+iframe {
     align-items: center;
-
+    border: none;
+    border-radius: 10px;
+    background: white;
 }
 
-#content {}
-
-.txt-logo{
+.txt-logo {
     font-size: 35px;
     color: var(--yellow);
     font-style: italic;
@@ -47,7 +56,7 @@ h1 {
 
 }
 
-.adress{
+.adress {
     list-style: none;
     display: flex;
     align-items: center;
@@ -55,7 +64,7 @@ h1 {
     column-gap: 5px;
     padding-top: 20px;
     font-size: 18px;
-    
+
 }
 
 .top {
